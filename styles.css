@@ -172,3 +172,57 @@ body {
         margin-top: -50px;
     }   
 }
+#subscription-plans .subscription-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+#subscription-plans .subscription-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#subscription-plans .card-header {
+  background: #012b29;
+  color: #f1b22a;
+}
+
+#subscription-plans .card-body {
+  padding: 2rem;
+}
+
+#subscription-plans .price {
+  font-size: 2rem;
+  color: #012b29;
+  background-color: #f1b22a;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 1rem 0;
+}
+
+#subscription-plans .card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+#subscription-plans .btn-primary {
+  color: #012b29;
+  background-color: #f1b22a;
+  border-color: #f1b22a;
+}
+
+#subscription-plans .btn-primary:hover {
+  background-color: #e8a022;
+  border-color: #e8a022;
+}
+
+  
+
+  @media (max-width: 768px) {
+    #subscription-plans .subscription-card {
+      margin-bottom: 2rem; 
+    }
+  }
